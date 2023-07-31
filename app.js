@@ -25,9 +25,9 @@ initializeDBAndServer();
 
 const convertDbObjectToResponseObject = (dbObject) => {
   return {
-    playerId: dbObject.player_Id,
+    playerId: dbObject.player_id,
     playerName: dbObject.player_name,
-    jerseyNumber: dbObject.jerseyNumber,
+    jerseyNumber: dbObject.jersey_number,
     role: dbObject.role,
   };
 };
